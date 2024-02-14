@@ -1,0 +1,9 @@
+tunnels:
+  django:
+    addr: 8000  # The port your Django application is running on
+    proto: http
+    hostname: 012a-103-187-160-94.ngrok-free.app  # Replace with your Ngrok subdomain
+
+  redis:
+    addr: 6379  # The default port for Redis
+    proto: tcp
